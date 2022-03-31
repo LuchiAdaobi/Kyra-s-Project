@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: black;
+}
+
+.contain {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section {
+  /* padding: 5rem 10%; */
+}
+
+.btn {
+  /* display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #666;
+  color: white;
+  padding: 0.9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem; */
+}
+
+header {
+  /* display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #7393b3;
+  overflow: auto;
+  height: auto; */
+}
+
+header .navbar {
+  /* float: left; */
+  /* font-size: 1.7rem; */
+  /* border-radius: 0.5rem; */
+  /* text-decoration-color: white; */
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.home {
+  /* display: flex; */
+  /* align-items: center; */
+  /* min-height: 50vh; */
+  /* background-color: #7393b3; */
+}
+
+.home .content h3 {
+  /* font-size: 6rem;
+  color: white;
+  text-align: center; */
+}
+
+.home .content span {
+  /* font-size: 30px;
+  color: white; */
+}
+
+.fa {
+  /* padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none; */
+}
+
+.why {
+  /* display: inline-flex;
+  width: 1200px;
+  height: 100px;
+  margin: 50px auto;
+  margin-bottom: 300px; */
+}
+
+.why .content h3 {
+  /* font-size: 6rem;
+  color: #7393b3;
+  text-align: center;
+  margin: 50px auto; */
+}
+
+.why .content span {
+  /* font-size: 30px;
+  color: #7393b3;
+  margin: 50px auto; */
+}
+
+.container {
+  /* display: relative;
+  width: 1200px;
+  height: 100px;
+  margin: 20px auto; */
+}
+
+.container .box {
+  /* width: 450px;
+  height: 250px;
+  background: rgb(70, 69, 69);
+  float: left;
+  margin: 20px 40px 10px 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px; */
+}
+.container .content {
+  /* float: left;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px; */
+}
+
+.container2 {
+  /* display: relative;
+  width: 1200px;
+  height: 100px;
+  margin: 50px auto; */
+}
+
+.container2 .box2 {
+  /* width: 450px;
+  height: 250px;
+  background: rgb(70, 69, 69);
+  float: right;
+  margin: 20px 40px 10px 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px; */
+}
+
+.container2 .content2 {
+  /* position: relative;
+  float: right;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px; */
+}
