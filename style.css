@@ -223,6 +223,7 @@ li{
     .footer-upper{
         flex-direction: column;
     }
+    
     .footer-left{
         display: flex;
         flex-direction: column;
