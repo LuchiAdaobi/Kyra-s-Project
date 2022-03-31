@@ -213,8 +213,24 @@ li{
         padding: 10rem;
     }
 }
-@media(max-width :820px){
-    .gym-cards{
+@media(max-width :786px){
+    .footer-upper{
         flex-direction: column;
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .footer-upper .footer-right{
+        align-self: flex-start;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .footer-bottom .logo{
+        align-self: flex-start;
+        padding-top: 1rem;
     }
 }
